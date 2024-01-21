@@ -1,0 +1,35 @@
+{
+    "env": {
+        "es2021": true
+    },
+    "extends": [
+        "standard-with-typescript",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "@typescript-eslint/indent": ["error", "tab"],
+        "no-tabs": 0,
+        "@typescript-eslint/semi": 0,
+        "@typescript-eslint/no-extraneous-class": 0,
+        "space-before-function-paren": 0,
+        "@typescript-eslint/space-before-function-paren": 0,
+        "@typescript-eslint/no-misused-promises": 0,
+        "@typescript-eslint/unbound-method": 0,
+        "comma-dangle": 0,
+        "@typescript-eslint/comma-dangle": 0,
+        "@typescript-eslint/member-delimiter-style": 0,
+        "prefer-regex-literals": 0,
+        "@typescript-eslint/no-non-null-assertion": 0,
+        "@typescript-eslint/strict-boolean-expressions": 0,
+        "no-unsafe-optional-chaining": 0,
+        "@typescript-eslint/no-invalid-void-type": 0,
+        "@typescript-eslint/naming-convention": 0
+    }
+}
